@@ -10,7 +10,7 @@ public class Conta {
 
     public Conta(String nome, double initialValue, long account) {
         this.account = account;
-        this.saldo += initialValue;
+        depositar(initialValue);
         this.nome = nome;
     }
     
